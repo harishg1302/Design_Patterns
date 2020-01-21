@@ -1,0 +1,26 @@
+spring:
+   environment: prod
+   hosts:
+    - https://www.example1.com
+    - https://www.example2.com
+   datasource:
+    url: jdbc:mysql://localhost:3306/testdb
+    username: root
+    password: root 
+
+profiles:
+    active: prod   
+server:
+  port: 9919
+  
+logging:
+  pattern:
+        console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+        file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  level:
+    root: INFO
+    org.springframework.web: ERROR
+    com.myloggers: INFO
+    org.hibernate: ERROR
+  file: /home/harishg/Greenlots/software/apache-tomcat-8.0.26/logs/application-debug.log
+

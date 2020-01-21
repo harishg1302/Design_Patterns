@@ -1,0 +1,10 @@
+server: 
+  port: 8081
+  contextPath: /auth
+ # Spring Security configuration
+security:
+  oauth2:
+    client:
+      clientId: hg
+      clientSecret: hgsecret
+     # redirectUris: http://localhost:8082/login/oauth2/code/
