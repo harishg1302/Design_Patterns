@@ -1,0 +1,18 @@
+package com.client.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.client.entity.User;
+
+@Service
+public class SaveUserService {
+	
+	@Autowired
+	private MyJpaRepositories myJpaRepositories;
+	
+	public void save(User user) {
+		myJpaRepositories.save(user);
+	}
+
+}

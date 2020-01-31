@@ -1,0 +1,26 @@
+server:
+  port : 8081
+security:
+  oauth2:
+    client:
+      client-id: hg
+      client-secret: harish
+      scope: read,write
+      auto-approve-scopes: '.*'
+spring:
+  mvc:
+    dispatchOptionsRequest: true
+  datasource:
+    username: root
+    password: root
+    url: 'jdbc:mysql://localhost:3306/oauthdb'
+  database:
+    driverClassName: 'com.mysql.jdbc.Driver'
+  jpa:
+    show-sql: true 
+    hibernate:
+      ddl-auto: create 
+    properties:
+      hibernate.id.new_generator_mappings: true
+      hibernate.hbm2ddl.auto: update  
+      hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect

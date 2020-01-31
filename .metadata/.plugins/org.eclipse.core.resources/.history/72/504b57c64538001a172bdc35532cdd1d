@@ -1,0 +1,14 @@
+package com.client.service;
+
+import org.springframework.stereotype.Service;
+
+import com.client.entity.User;
+
+@Service
+public class SaveUserService {
+	
+	public void save(User user) {
+		
+	}
+
+}

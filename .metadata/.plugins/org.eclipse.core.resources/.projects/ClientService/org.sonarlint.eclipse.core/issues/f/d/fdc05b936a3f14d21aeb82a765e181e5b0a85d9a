@@ -1,0 +1,6 @@
+
+‘squid:S1488#"]Immediately return this expression instead of assigning it to the temporary variable "token".(¡ÅÚÒ8ÁÈéðù-H‚RMINORZ
+CODE_SMELL
+vsquid:S47191"=Replace Charset.forName() call with StandardCharsets.US_ASCII(Ý¨¤êþÿÿÿÿ8¤ÇÏðù-HƒRMINORZ
+CODE_SMELL
+zsquid:S4684("@Replace this persistent entity with a simple POJO or DTO object.(±Õ›²8Ìÿ‹îú-H„RCRITICALZVULNERABILITY

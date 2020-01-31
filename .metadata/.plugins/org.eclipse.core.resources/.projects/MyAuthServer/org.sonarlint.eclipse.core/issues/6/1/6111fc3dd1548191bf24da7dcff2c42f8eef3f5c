@@ -1,0 +1,4 @@
+
+isquid:S3655"7Call "Optional#isPresent()" before accessing the value.(ó¿ƒöùÿÿÿÿ8òò™Éú-HèRMAJORZBUG
+á%squid:RedundantThrowsDeclarationCheck"’Remove the declaration of thrown exception 'org.springframework.security.core.userdetails.UsernameNotFoundException' which is a runtime exception.(žÌÃŸ8ˆ³ªÇú-HéRMINORZ
+CODE_SMELL
